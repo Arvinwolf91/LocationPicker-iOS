@@ -28,10 +28,6 @@ class LocationEngine: NSObject {
         // default: navigation bar's `barTintColor` or `.whiteColor()`
         locationPicker.currentLocationButtonBackground = .blue
         
-        // custom button
- //       let doneButtonItem = UIBarButtonItem(title:"Done", style: .plain, target: self, action: #selector(dismissLocationPicker(sender:)))
- //       locationPicker.navigationItem.leftBarButtonItem  = doneButtonItem
-        
         // ignored if initial location is given, shows that location instead
         locationPicker.showCurrentLocationInitially = true // default: true
         
@@ -48,27 +44,9 @@ class LocationEngine: NSObject {
           completionHandler(location!)
         }
         
-        // Open LocationPickerViewController
-//        let navController = UINavigationController.init(rootViewController:locationPicker)
-//        let window = UIApplication.shared.keyWindow
-//        if let window = window, let rootViewController = window.rootViewController {
-//            var currentController = rootViewController
-//            while let presentedController = currentController.presentedViewController {
-//                currentController = presentedController
-//            }
-//            currentController.present(navController, animated: true, completion: nil)
-//        }
-        
         let window = UIApplication.shared.keyWindow
         let navController = window?.rootViewController as! UINavigationController
         navController.pushViewController(locationPicker, animated: true)
     }
-    
-    // TODO
-//    func dismissLocationPicker(sender: UIBarButtonItem) {
-        // Dismiss LocationPickerViewController
-        
-        
-//    }
     
 }
