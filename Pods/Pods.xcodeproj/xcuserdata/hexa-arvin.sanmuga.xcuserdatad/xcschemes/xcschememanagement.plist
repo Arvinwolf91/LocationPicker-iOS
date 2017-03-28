@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LocationPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ArvinLocationPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ArvinLocationPickerTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ArvinLocationPickerUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6270B7E559D4DAE3057E9BC530994201</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9177FB625880EBAE9F954330AEDEB03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED4004141FC537852357717BE5FB30DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2EC4D0CDE0BD21DAFA39FF4F3A348CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0139BCAAF0A6CE4CDA811DEBE64D6E63 /* LocationPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E55E172560EDD40B8D3DD6E8A4DDAA3C /* LocationPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EDA0271052D30E5D223D9291C6E98D4 /* LocationPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5675EE42C7664EB030B8071D7F74D35 /* LocationPicker-dummy.m */; };
+		0EFCC45C0564B506ABB8C46E94299E17 /* Pods-ArvinLocationPickerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08762EF12CE28F7938FA315C089BC845 /* Pods-ArvinLocationPickerTests-dummy.m */; };
+		23F74A95837B053199B75F28238AD247 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AA2777E676D35241CC4ECECC6EE4D2 /* Location.swift */; };
+		303F8538B20258E1D5B24B8DCADA6418 /* LocationSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF7B8B9EE805C9070FF8F36D4C265B /* LocationSearchResultsViewController.swift */; };
+		38E4C5DDDF001D43B2C92F013A0D2424 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4655D100343DBD0204EE8F25843FBEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6033313CAA69561C82844D25233AC72D /* SearchHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE8B007B4C30493F710BEA39592E08 /* SearchHistoryManager.swift */; };
+		6285B34EED232F0B2F7E90685F82BDD1 /* Pods-ArvinLocationPickerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21FBFC315C88A3D1A6BB04EFD58F129E /* Pods-ArvinLocationPickerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0C2DDF35679E5D888D3010FD1BABDD /* Pods-ArvinLocationPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 220BCEE5A536B7A962497F5EDFEF2BDC /* Pods-ArvinLocationPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B2BC627BF6573E8BE7E5D95A5F32FD0 /* Pods-ArvinLocationPickerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B712C49C7F3DDAF2202EBD4E22DD1C /* Pods-ArvinLocationPickerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		912D8506B4CA8615E8D9E29B500E1DA5 /* Pods-ArvinLocationPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F9D28444F4A1302F2100EB928C451D /* Pods-ArvinLocationPicker-dummy.m */; };
+		96604E457CA5264CE0B40BC5DA6C31E5 /* Pods-ArvinLocationPickerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 773214022E635E7C5C63203F90DF713D /* Pods-ArvinLocationPickerUITests-dummy.m */; };
+		B0C9122E6BFE7200340798095E2AA5EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4427324A69472417AA2D4BCA67457D /* Images.xcassets */; };
+		BECEE185FC129B257CFEF84B580DB345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CB1703D1A14041CB00D9797679F64C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D10BB1011BDA0F12FC603850B6034411 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869177113CE73F16868F35F823C5167D /* LocationPickerViewController.swift */; };
+		ED8B487DDD3F9F6AE0EDCAEAB6C406AF /* LocationPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A094A2114253F4ED24287C196195AF /* LocationPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCFFE48F6712D12626BF2FD7F3C08EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6270B7E559D4DAE3057E9BC530994201;
+			remoteInfo = LocationPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032472EDCB031ABDE64961A8EDAE6213 /* Pods_ArvinLocationPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArvinLocationPicker.framework; path = "Pods-ArvinLocationPicker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0344769984273DA6A97374D2647FD476 /* Pods-ArvinLocationPickerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArvinLocationPickerUITests.modulemap"; sourceTree = "<group>"; };
+		04E9EF61CEA7425F4D032B5B870B5588 /* Pods-ArvinLocationPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArvinLocationPicker.modulemap"; sourceTree = "<group>"; };
+		05BB28F873D1941BE54072E8F31B8873 /* Pods-ArvinLocationPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArvinLocationPicker-frameworks.sh"; sourceTree = "<group>"; };
+		07BE8B007B4C30493F710BEA39592E08 /* SearchHistoryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchHistoryManager.swift; path = LocationPicker/SearchHistoryManager.swift; sourceTree = "<group>"; };
+		08762EF12CE28F7938FA315C089BC845 /* Pods-ArvinLocationPickerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArvinLocationPickerTests-dummy.m"; sourceTree = "<group>"; };
+		08D9701DE60745C22835E94849B4028A /* Pods-ArvinLocationPickerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArvinLocationPickerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F4E4FE2FCFCD8FFEF9964AE5ED92BC9 /* Pods-ArvinLocationPickerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArvinLocationPickerUITests-resources.sh"; sourceTree = "<group>"; };
+		15A407297E6E08A338935447F1D5BCE5 /* Pods_ArvinLocationPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArvinLocationPickerUITests.framework; path = "Pods-ArvinLocationPickerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19861693DDBB621E0E03BEA934186094 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0017C81CA62D3D47FA3BAD94307D5B /* Pods-ArvinLocationPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArvinLocationPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21071BDCA07A3679CE161211CE414074 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FBFC315C88A3D1A6BB04EFD58F129E /* Pods-ArvinLocationPickerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArvinLocationPickerUITests-umbrella.h"; sourceTree = "<group>"; };
+		220BCEE5A536B7A962497F5EDFEF2BDC /* Pods-ArvinLocationPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArvinLocationPicker-umbrella.h"; sourceTree = "<group>"; };
+		287B3DC2926F20F80EB6B5DC28784F31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EC22DFB9AD1E769F09B52721084A14 /* Pods-ArvinLocationPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArvinLocationPicker.release.xcconfig"; sourceTree = "<group>"; };
+		386D51D6088ED6F7DCA549B25EC7AFF7 /* Pods-ArvinLocationPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArvinLocationPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		415D763B9E541BCA3CA6934449AA6DED /* LocationPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LocationPicker.modulemap; sourceTree = "<group>"; };
+		565FB31BB245A69308A2F36330D53666 /* Pods_ArvinLocationPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArvinLocationPickerTests.framework; path = "Pods-ArvinLocationPickerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E323DB96BD3A6A43494FD931EF85485 /* Pods-ArvinLocationPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArvinLocationPicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		6508D046855CFE8E09D061E263EF2E3D /* Pods-ArvinLocationPickerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArvinLocationPickerTests.modulemap"; sourceTree = "<group>"; };
+		6967D203AB50D5F73CFDCB1DD13C1D26 /* Pods-ArvinLocationPickerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArvinLocationPickerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69F9D28444F4A1302F2100EB928C451D /* Pods-ArvinLocationPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArvinLocationPicker-dummy.m"; sourceTree = "<group>"; };
+		773214022E635E7C5C63203F90DF713D /* Pods-ArvinLocationPickerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArvinLocationPickerUITests-dummy.m"; sourceTree = "<group>"; };
+		7D4E8DACCC02738F56A8AF6AA1FB664A /* Pods-ArvinLocationPickerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArvinLocationPickerTests-frameworks.sh"; sourceTree = "<group>"; };
+		8624EDDD2E5BBBE619A5C47A1F8BE26B /* Pods-ArvinLocationPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArvinLocationPicker-resources.sh"; sourceTree = "<group>"; };
+		869177113CE73F16868F35F823C5167D /* LocationPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationPickerViewController.swift; path = LocationPicker/LocationPickerViewController.swift; sourceTree = "<group>"; };
+		86B712C49C7F3DDAF2202EBD4E22DD1C /* Pods-ArvinLocationPickerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArvinLocationPickerTests-umbrella.h"; sourceTree = "<group>"; };
+		8D8B072A009AA3DF53C7BE80E1785284 /* Pods-ArvinLocationPickerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArvinLocationPickerTests-resources.sh"; sourceTree = "<group>"; };
+		910004F501315E83212BFEF39DF3731E /* Pods-ArvinLocationPickerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArvinLocationPickerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CCDBF7D03B323FD5DAA25B2CDE5BEDA /* Pods-ArvinLocationPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArvinLocationPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DEFFBF62F1BB2960D29795B18D98ECC /* LocationPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationPicker-prefix.pch"; sourceTree = "<group>"; };
+		9EF98E21942A2540AF07BB9DD49EDD8F /* Pods-ArvinLocationPickerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArvinLocationPickerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A0F05B3811002800A75562E576218ACC /* Pods-ArvinLocationPickerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArvinLocationPickerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0E0A5EF4D030A37834C4342CF281856 /* LocationPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationPicker.xcconfig; sourceTree = "<group>"; };
+		B3D7065B681E57636CBEAD555F3E49A4 /* Pods-ArvinLocationPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArvinLocationPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D088E7CC9F48BBDDE0469585BB8A8F /* LocationPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocationPicker.framework; path = LocationPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5675EE42C7664EB030B8071D7F74D35 /* LocationPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocationPicker-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0A094A2114253F4ED24287C196195AF /* LocationPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationPicker.h; path = LocationPicker/LocationPicker.h; sourceTree = "<group>"; };
+		DA4427324A69472417AA2D4BCA67457D /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LocationPicker/Images.xcassets; sourceTree = "<group>"; };
+		E55E172560EDD40B8D3DD6E8A4DDAA3C /* LocationPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationPicker-umbrella.h"; sourceTree = "<group>"; };
+		E8DF7B8B9EE805C9070FF8F36D4C265B /* LocationSearchResultsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationSearchResultsViewController.swift; path = LocationPicker/LocationSearchResultsViewController.swift; sourceTree = "<group>"; };
+		EA82901B1AC59DF1D933580EE21CD191 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBADC451377CC8438982A4044A0E05C3 /* Pods-ArvinLocationPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArvinLocationPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8AA2777E676D35241CC4ECECC6EE4D2 /* Location.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Location.swift; path = LocationPicker/Location.swift; sourceTree = "<group>"; };
+		FF0D1D839B310EF30E138B310F9D41B8 /* Pods-ArvinLocationPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArvinLocationPickerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D620A2D7C4BDA4EDBE962BDA28C216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECEE185FC129B257CFEF84B580DB345 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94866B4BD4AB763B8258EE680EB6660B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1703D1A14041CB00D9797679F64C15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A61C06E4832CAB632168383629D9F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E4C5DDDF001D43B2C92F013A0D2424 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CCF0F831B4BCD738A3CFD83456091D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4655D100343DBD0204EE8F25843FBEDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184EC388672D4A78D6CBB68D881D22F0 /* Pods-ArvinLocationPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				21071BDCA07A3679CE161211CE414074 /* Info.plist */,
+				6508D046855CFE8E09D061E263EF2E3D /* Pods-ArvinLocationPickerTests.modulemap */,
+				6967D203AB50D5F73CFDCB1DD13C1D26 /* Pods-ArvinLocationPickerTests-acknowledgements.markdown */,
+				A0F05B3811002800A75562E576218ACC /* Pods-ArvinLocationPickerTests-acknowledgements.plist */,
+				08762EF12CE28F7938FA315C089BC845 /* Pods-ArvinLocationPickerTests-dummy.m */,
+				7D4E8DACCC02738F56A8AF6AA1FB664A /* Pods-ArvinLocationPickerTests-frameworks.sh */,
+				8D8B072A009AA3DF53C7BE80E1785284 /* Pods-ArvinLocationPickerTests-resources.sh */,
+				86B712C49C7F3DDAF2202EBD4E22DD1C /* Pods-ArvinLocationPickerTests-umbrella.h */,
+				1B0017C81CA62D3D47FA3BAD94307D5B /* Pods-ArvinLocationPickerTests.debug.xcconfig */,
+				FF0D1D839B310EF30E138B310F9D41B8 /* Pods-ArvinLocationPickerTests.release.xcconfig */,
+			);
+			name = "Pods-ArvinLocationPickerTests";
+			path = "Target Support Files/Pods-ArvinLocationPickerTests";
+			sourceTree = "<group>";
+		};
+		3F32532CD38B20CA8E2962CB72D10B8A /* LocationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F8AA2777E676D35241CC4ECECC6EE4D2 /* Location.swift */,
+				D0A094A2114253F4ED24287C196195AF /* LocationPicker.h */,
+				869177113CE73F16868F35F823C5167D /* LocationPickerViewController.swift */,
+				E8DF7B8B9EE805C9070FF8F36D4C265B /* LocationSearchResultsViewController.swift */,
+				07BE8B007B4C30493F710BEA39592E08 /* SearchHistoryManager.swift */,
+				A38DDB7D163C0735C138805BD86325EB /* Resources */,
+				B298A3B9CFDF595F2C227BC1CEB701DE /* Support Files */,
+			);
+			name = LocationPicker;
+			path = LocationPicker;
+			sourceTree = "<group>";
+		};
+		52C3919B8B0C469785B136695A5D713F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4D088E7CC9F48BBDDE0469585BB8A8F /* LocationPicker.framework */,
+				032472EDCB031ABDE64961A8EDAE6213 /* Pods_ArvinLocationPicker.framework */,
+				565FB31BB245A69308A2F36330D53666 /* Pods_ArvinLocationPickerTests.framework */,
+				15A407297E6E08A338935447F1D5BCE5 /* Pods_ArvinLocationPickerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B4492C123A456579C930A575F620536A /* Pods */,
+				52C3919B8B0C469785B136695A5D713F /* Products */,
+				98DE7E40946E890FE09872BB97483328 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98DE7E40946E890FE09872BB97483328 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC15C2B7AC6428BE0BC230C7737319A8 /* Pods-ArvinLocationPicker */,
+				184EC388672D4A78D6CBB68D881D22F0 /* Pods-ArvinLocationPickerTests */,
+				F7D8F91A45632AC573BF6775C6EAEEB9 /* Pods-ArvinLocationPickerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A38DDB7D163C0735C138805BD86325EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA4427324A69472417AA2D4BCA67457D /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC15C2B7AC6428BE0BC230C7737319A8 /* Pods-ArvinLocationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				287B3DC2926F20F80EB6B5DC28784F31 /* Info.plist */,
+				04E9EF61CEA7425F4D032B5B870B5588 /* Pods-ArvinLocationPicker.modulemap */,
+				EBADC451377CC8438982A4044A0E05C3 /* Pods-ArvinLocationPicker-acknowledgements.markdown */,
+				5E323DB96BD3A6A43494FD931EF85485 /* Pods-ArvinLocationPicker-acknowledgements.plist */,
+				69F9D28444F4A1302F2100EB928C451D /* Pods-ArvinLocationPicker-dummy.m */,
+				05BB28F873D1941BE54072E8F31B8873 /* Pods-ArvinLocationPicker-frameworks.sh */,
+				8624EDDD2E5BBBE619A5C47A1F8BE26B /* Pods-ArvinLocationPicker-resources.sh */,
+				220BCEE5A536B7A962497F5EDFEF2BDC /* Pods-ArvinLocationPicker-umbrella.h */,
+				386D51D6088ED6F7DCA549B25EC7AFF7 /* Pods-ArvinLocationPicker.debug.xcconfig */,
+				28EC22DFB9AD1E769F09B52721084A14 /* Pods-ArvinLocationPicker.release.xcconfig */,
+			);
+			name = "Pods-ArvinLocationPicker";
+			path = "Target Support Files/Pods-ArvinLocationPicker";
+			sourceTree = "<group>";
+		};
+		B298A3B9CFDF595F2C227BC1CEB701DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA82901B1AC59DF1D933580EE21CD191 /* Info.plist */,
+				415D763B9E541BCA3CA6934449AA6DED /* LocationPicker.modulemap */,
+				B0E0A5EF4D030A37834C4342CF281856 /* LocationPicker.xcconfig */,
+				B5675EE42C7664EB030B8071D7F74D35 /* LocationPicker-dummy.m */,
+				9DEFFBF62F1BB2960D29795B18D98ECC /* LocationPicker-prefix.pch */,
+				E55E172560EDD40B8D3DD6E8A4DDAA3C /* LocationPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LocationPicker";
+			sourceTree = "<group>";
+		};
+		B4492C123A456579C930A575F620536A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F32532CD38B20CA8E2962CB72D10B8A /* LocationPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7D8F91A45632AC573BF6775C6EAEEB9 /* Pods-ArvinLocationPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19861693DDBB621E0E03BEA934186094 /* Info.plist */,
+				0344769984273DA6A97374D2647FD476 /* Pods-ArvinLocationPickerUITests.modulemap */,
+				08D9701DE60745C22835E94849B4028A /* Pods-ArvinLocationPickerUITests-acknowledgements.markdown */,
+				9EF98E21942A2540AF07BB9DD49EDD8F /* Pods-ArvinLocationPickerUITests-acknowledgements.plist */,
+				773214022E635E7C5C63203F90DF713D /* Pods-ArvinLocationPickerUITests-dummy.m */,
+				910004F501315E83212BFEF39DF3731E /* Pods-ArvinLocationPickerUITests-frameworks.sh */,
+				0F4E4FE2FCFCD8FFEF9964AE5ED92BC9 /* Pods-ArvinLocationPickerUITests-resources.sh */,
+				21FBFC315C88A3D1A6BB04EFD58F129E /* Pods-ArvinLocationPickerUITests-umbrella.h */,
+				B3D7065B681E57636CBEAD555F3E49A4 /* Pods-ArvinLocationPickerUITests.debug.xcconfig */,
+				9CCDBF7D03B323FD5DAA25B2CDE5BEDA /* Pods-ArvinLocationPickerUITests.release.xcconfig */,
+			);
+			name = "Pods-ArvinLocationPickerUITests";
+			path = "Target Support Files/Pods-ArvinLocationPickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C671C97387609F16A5DD0DD37B8BFB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0C2DDF35679E5D888D3010FD1BABDD /* Pods-ArvinLocationPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D46A5D638301B7530184DF41ED156EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0139BCAAF0A6CE4CDA811DEBE64D6E63 /* LocationPicker-umbrella.h in Headers */,
+				ED8B487DDD3F9F6AE0EDCAEAB6C406AF /* LocationPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F053EF880A6478D60947B531507E87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6285B34EED232F0B2F7E90685F82BDD1 /* Pods-ArvinLocationPickerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCB336C837A372CE594ACE07C95AF96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2BC627BF6573E8BE7E5D95A5F32FD0 /* Pods-ArvinLocationPickerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6270B7E559D4DAE3057E9BC530994201 /* LocationPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9229B3CF2A2625DEA2BD95319565B62F /* Build configuration list for PBXNativeTarget "LocationPicker" */;
+			buildPhases = (
+				3C27784F0D8A3243AE35CE2BB11BC250 /* Sources */,
+				94866B4BD4AB763B8258EE680EB6660B /* Frameworks */,
+				4D46A5D638301B7530184DF41ED156EF /* Headers */,
+				2D7FD623EBAA9B5A8B4A1BEACCCD3EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationPicker;
+			productName = LocationPicker;
+			productReference = B4D088E7CC9F48BBDDE0469585BB8A8F /* LocationPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9177FB625880EBAE9F954330AEDEB03 /* Pods-ArvinLocationPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A3B61A5B5085732C4E9296F003F8E4 /* Build configuration list for PBXNativeTarget "Pods-ArvinLocationPickerTests" */;
+			buildPhases = (
+				4B3258B332E45E65E498BD7E36983A57 /* Sources */,
+				9A61C06E4832CAB632168383629D9F5B /* Frameworks */,
+				8DCB336C837A372CE594ACE07C95AF96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArvinLocationPickerTests";
+			productName = "Pods-ArvinLocationPickerTests";
+			productReference = 565FB31BB245A69308A2F36330D53666 /* Pods_ArvinLocationPickerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED4004141FC537852357717BE5FB30DD /* Pods-ArvinLocationPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B726E3722498488A44977AD36FC7BA /* Build configuration list for PBXNativeTarget "Pods-ArvinLocationPicker" */;
+			buildPhases = (
+				10B7BAB880735406A0209C24C22AEC25 /* Sources */,
+				47D620A2D7C4BDA4EDBE962BDA28C216 /* Frameworks */,
+				1C671C97387609F16A5DD0DD37B8BFB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54293A174E49FAE34D0934EDDF48F04A /* PBXTargetDependency */,
+			);
+			name = "Pods-ArvinLocationPicker";
+			productName = "Pods-ArvinLocationPicker";
+			productReference = 032472EDCB031ABDE64961A8EDAE6213 /* Pods_ArvinLocationPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2EC4D0CDE0BD21DAFA39FF4F3A348CB /* Pods-ArvinLocationPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFF100239BC5E496F5ADA9A51C5DE19 /* Build configuration list for PBXNativeTarget "Pods-ArvinLocationPickerUITests" */;
+			buildPhases = (
+				7359E4319F126C3985DB83C5E141CC30 /* Sources */,
+				9CCF0F831B4BCD738A3CFD83456091D5 /* Frameworks */,
+				51F053EF880A6478D60947B531507E87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArvinLocationPickerUITests";
+			productName = "Pods-ArvinLocationPickerUITests";
+			productReference = 15A407297E6E08A338935447F1D5BCE5 /* Pods_ArvinLocationPickerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 52C3919B8B0C469785B136695A5D713F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6270B7E559D4DAE3057E9BC530994201 /* LocationPicker */,
+				ED4004141FC537852357717BE5FB30DD /* Pods-ArvinLocationPicker */,
+				E9177FB625880EBAE9F954330AEDEB03 /* Pods-ArvinLocationPickerTests */,
+				F2EC4D0CDE0BD21DAFA39FF4F3A348CB /* Pods-ArvinLocationPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D7FD623EBAA9B5A8B4A1BEACCCD3EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C9122E6BFE7200340798095E2AA5EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B7BAB880735406A0209C24C22AEC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912D8506B4CA8615E8D9E29B500E1DA5 /* Pods-ArvinLocationPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C27784F0D8A3243AE35CE2BB11BC250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F74A95837B053199B75F28238AD247 /* Location.swift in Sources */,
+				0EDA0271052D30E5D223D9291C6E98D4 /* LocationPicker-dummy.m in Sources */,
+				D10BB1011BDA0F12FC603850B6034411 /* LocationPickerViewController.swift in Sources */,
+				303F8538B20258E1D5B24B8DCADA6418 /* LocationSearchResultsViewController.swift in Sources */,
+				6033313CAA69561C82844D25233AC72D /* SearchHistoryManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3258B332E45E65E498BD7E36983A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFCC45C0564B506ABB8C46E94299E17 /* Pods-ArvinLocationPickerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7359E4319F126C3985DB83C5E141CC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96604E457CA5264CE0B40BC5DA6C31E5 /* Pods-ArvinLocationPickerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54293A174E49FAE34D0934EDDF48F04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocationPicker;
+			target = 6270B7E559D4DAE3057E9BC530994201 /* LocationPicker */;
+			targetProxy = BCFFE48F6712D12626BF2FD7F3C08EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F187B9766DB9338790FDC28AD02F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 386D51D6088ED6F7DCA549B25EC7AFF7 /* Pods-ArvinLocationPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArvinLocationPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArvinLocationPicker/Pods-ArvinLocationPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArvinLocationPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C8D6471F40407F5081FBDAC827406BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E0A5EF4D030A37834C4342CF281856 /* LocationPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LocationPicker/LocationPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocationPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocationPicker/LocationPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LocationPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D89CD1C250E2B2F360E2E2D7D8D3937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EC22DFB9AD1E769F09B52721084A14 /* Pods-ArvinLocationPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArvinLocationPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArvinLocationPicker/Pods-ArvinLocationPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArvinLocationPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55FCFEA9EA81E948A04B34D7169F0C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCDBF7D03B323FD5DAA25B2CDE5BEDA /* Pods-ArvinLocationPickerUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArvinLocationPickerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArvinLocationPickerUITests/Pods-ArvinLocationPickerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArvinLocationPickerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689EB670B615EF116AED931D531A8CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D7065B681E57636CBEAD555F3E49A4 /* Pods-ArvinLocationPickerUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArvinLocationPickerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArvinLocationPickerUITests/Pods-ArvinLocationPickerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArvinLocationPickerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D081CEDDB95714B1CEEC4A4134FB5475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0D1D839B310EF30E138B310F9D41B8 /* Pods-ArvinLocationPickerTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArvinLocationPickerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArvinLocationPickerTests/Pods-ArvinLocationPickerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArvinLocationPickerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC004E4A2C35BA9ADF9C80D386CF2CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E0A5EF4D030A37834C4342CF281856 /* LocationPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LocationPicker/LocationPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocationPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocationPicker/LocationPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LocationPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDF3072388CC0A2F776B2E1FD730E562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0017C81CA62D3D47FA3BAD94307D5B /* Pods-ArvinLocationPickerTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArvinLocationPickerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArvinLocationPickerTests/Pods-ArvinLocationPickerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArvinLocationPickerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A3B61A5B5085732C4E9296F003F8E4 /* Build configuration list for PBXNativeTarget "Pods-ArvinLocationPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF3072388CC0A2F776B2E1FD730E562 /* Debug */,
+				D081CEDDB95714B1CEEC4A4134FB5475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9229B3CF2A2625DEA2BD95319565B62F /* Build configuration list for PBXNativeTarget "LocationPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8D6471F40407F5081FBDAC827406BA /* Debug */,
+				EC004E4A2C35BA9ADF9C80D386CF2CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFF100239BC5E496F5ADA9A51C5DE19 /* Build configuration list for PBXNativeTarget "Pods-ArvinLocationPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689EB670B615EF116AED931D531A8CC3 /* Debug */,
+				55FCFEA9EA81E948A04B34D7169F0C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B726E3722498488A44977AD36FC7BA /* Build configuration list for PBXNativeTarget "Pods-ArvinLocationPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F187B9766DB9338790FDC28AD02F1A /* Debug */,
+				2D89CD1C250E2B2F360E2E2D7D8D3937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

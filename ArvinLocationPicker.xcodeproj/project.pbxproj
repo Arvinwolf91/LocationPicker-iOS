@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BC952741D5B50D28AA7B1AF /* Pods_ArvinLocationPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDD51FB6990EB4E48D97A60 /* Pods_ArvinLocationPicker.framework */; };
 		A529C7A91E8265D800D61576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529C7A81E8265D800D61576 /* AppDelegate.swift */; };
 		A529C7AB1E8265D800D61576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529C7AA1E8265D800D61576 /* ViewController.swift */; };
 		A529C7AE1E8265D800D61576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A529C7AC1E8265D800D61576 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		A529C7B31E8265D800D61576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A529C7B11E8265D800D61576 /* LaunchScreen.storyboard */; };
 		A529C7BE1E8265D800D61576 /* ArvinLocationPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529C7BD1E8265D800D61576 /* ArvinLocationPickerTests.swift */; };
 		A529C7C91E8265D800D61576 /* ArvinLocationPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529C7C81E8265D800D61576 /* ArvinLocationPickerUITests.swift */; };
+		A5CA19B61E83B5C90052ACD2 /* LocationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA19B51E83B5C90052ACD2 /* LocationEngine.swift */; };
+		D0C85AB1A911E7620A5FC459 /* Pods_ArvinLocationPickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C82B02B960B7BCB516A29B /* Pods_ArvinLocationPickerTests.framework */; };
+		D150FAC9F55FF4E2404FAED7 /* Pods_ArvinLocationPickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EA29D968FFC6B0BC7F9FDA /* Pods_ArvinLocationPickerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028AA1DEDC11B96B4B1AB7CD /* Pods-ArvinLocationPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArvinLocationPickerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArvinLocationPickerTests/Pods-ArvinLocationPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17FA0089657CDF11D0A9FAAF /* Pods-ArvinLocationPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArvinLocationPickerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArvinLocationPickerUITests/Pods-ArvinLocationPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BDD51FB6990EB4E48D97A60 /* Pods_ArvinLocationPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArvinLocationPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		667DB09F9C1C1EA4938E57D4 /* Pods-ArvinLocationPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArvinLocationPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArvinLocationPicker/Pods-ArvinLocationPicker.release.xcconfig"; sourceTree = "<group>"; };
+		69EA29D968FFC6B0BC7F9FDA /* Pods_ArvinLocationPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArvinLocationPickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A45C5B4561811B32AB6CE97 /* Pods-ArvinLocationPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArvinLocationPickerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArvinLocationPickerUITests/Pods-ArvinLocationPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A529C7A51E8265D800D61576 /* ArvinLocationPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArvinLocationPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A529C7A81E8265D800D61576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A529C7AA1E8265D800D61576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		A529C7C41E8265D800D61576 /* ArvinLocationPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArvinLocationPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A529C7C81E8265D800D61576 /* ArvinLocationPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArvinLocationPickerUITests.swift; sourceTree = "<group>"; };
 		A529C7CA1E8265D800D61576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CA19B51E83B5C90052ACD2 /* LocationEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationEngine.swift; sourceTree = "<group>"; };
+		CB6C4AF0CAF4993C7E7C74A1 /* Pods-ArvinLocationPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArvinLocationPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArvinLocationPicker/Pods-ArvinLocationPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C82B02B960B7BCB516A29B /* Pods_ArvinLocationPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArvinLocationPickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7ED5BDC46E6663EBD4B9B03 /* Pods-ArvinLocationPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArvinLocationPickerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArvinLocationPickerTests/Pods-ArvinLocationPickerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC952741D5B50D28AA7B1AF /* Pods_ArvinLocationPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C85AB1A911E7620A5FC459 /* Pods_ArvinLocationPickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D150FAC9F55FF4E2404FAED7 /* Pods_ArvinLocationPickerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87F094F09A87AE372C7A81C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BDD51FB6990EB4E48D97A60 /* Pods_ArvinLocationPicker.framework */,
+				E2C82B02B960B7BCB516A29B /* Pods_ArvinLocationPickerTests.framework */,
+				69EA29D968FFC6B0BC7F9FDA /* Pods_ArvinLocationPickerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A529C79C1E8265D700D61576 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				A529C7BC1E8265D800D61576 /* ArvinLocationPickerTests */,
 				A529C7C71E8265D800D61576 /* ArvinLocationPickerUITests */,
 				A529C7A61E8265D800D61576 /* Products */,
+				FFC6BC9FBE5004620D206DFE /* Pods */,
+				87F094F09A87AE372C7A81C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 			children = (
 				A529C7A81E8265D800D61576 /* AppDelegate.swift */,
 				A529C7AA1E8265D800D61576 /* ViewController.swift */,
+				A5CA19B51E83B5C90052ACD2 /* LocationEngine.swift */,
 				A529C7AC1E8265D800D61576 /* Main.storyboard */,
 				A529C7AF1E8265D800D61576 /* Assets.xcassets */,
 				A529C7B11E8265D800D61576 /* LaunchScreen.storyboard */,
@@ -125,6 +155,19 @@
 			path = ArvinLocationPickerUITests;
 			sourceTree = "<group>";
 		};
+		FFC6BC9FBE5004620D206DFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C4AF0CAF4993C7E7C74A1 /* Pods-ArvinLocationPicker.debug.xcconfig */,
+				667DB09F9C1C1EA4938E57D4 /* Pods-ArvinLocationPicker.release.xcconfig */,
+				028AA1DEDC11B96B4B1AB7CD /* Pods-ArvinLocationPickerTests.debug.xcconfig */,
+				E7ED5BDC46E6663EBD4B9B03 /* Pods-ArvinLocationPickerTests.release.xcconfig */,
+				8A45C5B4561811B32AB6CE97 /* Pods-ArvinLocationPickerUITests.debug.xcconfig */,
+				17FA0089657CDF11D0A9FAAF /* Pods-ArvinLocationPickerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A529C7CD1E8265D800D61576 /* Build configuration list for PBXNativeTarget "ArvinLocationPicker" */;
 			buildPhases = (
+				31C158CE791A3C5A73D7376C /* [CP] Check Pods Manifest.lock */,
 				A529C7A11E8265D800D61576 /* Sources */,
 				A529C7A21E8265D800D61576 /* Frameworks */,
 				A529C7A31E8265D800D61576 /* Resources */,
+				311F44B1AC960693CAD8BA78 /* [CP] Embed Pods Frameworks */,
+				BF6CFF60B16AE2EDB0C6FCFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A529C7D01E8265D800D61576 /* Build configuration list for PBXNativeTarget "ArvinLocationPickerTests" */;
 			buildPhases = (
+				91E5F3CC00BC28C6599CFED1 /* [CP] Check Pods Manifest.lock */,
 				A529C7B51E8265D800D61576 /* Sources */,
 				A529C7B61E8265D800D61576 /* Frameworks */,
 				A529C7B71E8265D800D61576 /* Resources */,
+				513380402CA140EDF9266D5A /* [CP] Embed Pods Frameworks */,
+				EC573CB5CA1A000613148D2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A529C7D31E8265D800D61576 /* Build configuration list for PBXNativeTarget "ArvinLocationPickerUITests" */;
 			buildPhases = (
+				FE81ED00687CDD532860786A /* [CP] Check Pods Manifest.lock */,
 				A529C7C01E8265D800D61576 /* Sources */,
 				A529C7C11E8265D800D61576 /* Frameworks */,
 				A529C7C21E8265D800D61576 /* Resources */,
+				7352E2FD3329C5C88DF489E0 /* [CP] Embed Pods Frameworks */,
+				4B322C8C014CEE11E3016982 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +245,7 @@
 				TargetAttributes = {
 					A529C7A41E8265D800D61576 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5JJJ4YM5QJ;
 						ProvisioningStyle = Automatic;
 					};
 					A529C7B81E8265D800D61576 = {
@@ -254,6 +307,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		311F44B1AC960693CAD8BA78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArvinLocationPicker/Pods-ArvinLocationPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31C158CE791A3C5A73D7376C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B322C8C014CEE11E3016982 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArvinLocationPickerUITests/Pods-ArvinLocationPickerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		513380402CA140EDF9266D5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArvinLocationPickerTests/Pods-ArvinLocationPickerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7352E2FD3329C5C88DF489E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArvinLocationPickerUITests/Pods-ArvinLocationPickerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91E5F3CC00BC28C6599CFED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6CFF60B16AE2EDB0C6FCFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArvinLocationPicker/Pods-ArvinLocationPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC573CB5CA1A000613148D2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArvinLocationPickerTests/Pods-ArvinLocationPickerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE81ED00687CDD532860786A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A529C7A11E8265D800D61576 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +452,7 @@
 			files = (
 				A529C7AB1E8265D800D61576 /* ViewController.swift in Sources */,
 				A529C7A91E8265D800D61576 /* AppDelegate.swift in Sources */,
+				A5CA19B61E83B5C90052ACD2 /* LocationEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +600,10 @@
 		};
 		A529C7CE1E8265D800D61576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6C4AF0CAF4993C7E7C74A1 /* Pods-ArvinLocationPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5JJJ4YM5QJ;
 				INFOPLIST_FILE = ArvinLocationPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexainitiative.ArvinLocationPicker;
@@ -420,8 +614,10 @@
 		};
 		A529C7CF1E8265D800D61576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667DB09F9C1C1EA4938E57D4 /* Pods-ArvinLocationPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5JJJ4YM5QJ;
 				INFOPLIST_FILE = ArvinLocationPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexainitiative.ArvinLocationPicker;
@@ -432,6 +628,7 @@
 		};
 		A529C7D11E8265D800D61576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028AA1DEDC11B96B4B1AB7CD /* Pods-ArvinLocationPickerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +643,7 @@
 		};
 		A529C7D21E8265D800D61576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7ED5BDC46E6663EBD4B9B03 /* Pods-ArvinLocationPickerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +658,7 @@
 		};
 		A529C7D41E8265D800D61576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A45C5B4561811B32AB6CE97 /* Pods-ArvinLocationPickerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ArvinLocationPickerUITests/Info.plist;
@@ -473,6 +672,7 @@
 		};
 		A529C7D51E8265D800D61576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FA0089657CDF11D0A9FAAF /* Pods-ArvinLocationPickerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ArvinLocationPickerUITests/Info.plist;
@@ -503,6 +703,7 @@
 				A529C7CF1E8265D800D61576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A529C7D01E8265D800D61576 /* Build configuration list for PBXNativeTarget "ArvinLocationPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +712,7 @@
 				A529C7D21E8265D800D61576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A529C7D31E8265D800D61576 /* Build configuration list for PBXNativeTarget "ArvinLocationPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +721,7 @@
 				A529C7D51E8265D800D61576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
